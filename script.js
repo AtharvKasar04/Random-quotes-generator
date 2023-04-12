@@ -1,9 +1,6 @@
 import {quoteslist} from '/quotes.js';
 
-// console.log(quoteslist[3].text);
-
 const generateQuote = () => {
-    console.log('pressed')
     
     let index = Math.floor(Math.random() * quoteslist.length);
 
